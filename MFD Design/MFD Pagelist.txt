@@ -1,0 +1,51 @@
+MFD Page List
+This table shows a list of the MFD pages available, with a short description of their purpose. Most MFD pages also have a page dedicated to their operation.
+
+Abbreviation	Name										Description
+[BLANK]			Blank Page									This is the page displayed when there is nothing else selected. It is simply a black screen with the 
+															word BLANK displayed in the middle. There's not really any reason to ever have this selected.
+															
+HUD	HUD 		Repeater									This page displays an identical copy of what is displayed on your Heads Up Display (HUD). This can be useful 
+															if your HUD becomes damaged or inoperable. This page has no OSBs - to return to the main menu, 
+															press the farthest left OSB on the top row.
+															
+RWR	RWR 		Repeater									This is similar to the HUD page - it displays an exact copy of what is displayed 
+															on your Radar Warning Receiver (RWR). Just like the HUD page, you need to click on the left 
+															OSB on the top row to return to the main menu.
+															
+RCCE			Recon Camera Page							This page is used in conjunction with the RCCE reconnaisance pod.
+
+RESET MENU		System Reset Page							This page is used to reset various systems to their default state. 
+															In most versions of Falcon, the page is accessible but clicking on the 
+															OSBs will not do anything, since the systems deal mostly with night visibility.
+															
+[SMS]			Stores Management System					This page is used to manage your aircraft's stores 
+															(i.e., the weapons and other equipment you have attached to your wings and fuselage). 
+															This is one of the most complicated pages.
+															
+HSD				Horizontal Situation Display				Next to the FCR, this is arguable the most important MFD page. 
+															It displays a moving map of the current situation around you, 
+															including your navigational course and the positions of friendly and enemy aircraft.
+															
+DTE				Data Upload Page							Real F-16s use a data cartridge to load mission information to the airplane's computers. 
+															Thankfully, Falcon takes care of this detail for you, so this page is accessible but not implemented.
+															
+TEST			Built-In Test Page							This page contains a number of built-in tests (BITs) that you can perform on your aircraft's systems. 
+															It can also be used to access information about system faults that occur while you are flying.
+															
+[FLCS]			Flight Control System Page					This page is labeled as the flight control system (FLCS) page, but it does not appear to be implemented.
+
+FLIR			Forward Looking Infrared Camera Page		This partially-implemented page allows you to control some properties of the Forward Looking InfraRed (FLIR) pod.
+
+TFR				Terrain Following Radar						This page allows you to control your Terrain Following Radar (TFR), an autopilot mode which allows the autopilot 
+															to fly the aircraft very close to the ground.
+															
+WPN				Weapon System Page							This page displays information from the targeting system of the currently selected weapon, if applicable. 
+															For example, if you have a Maverick selected, you will see the image from the infrared camera on this page.
+															
+TGP				Targeting Page								This page is similar the WPN page, but is used for Laser Guided Bombs (LGBs) and 
+															Joint Direct Attack Munitions (JDAMs). The camera for this page is mounted on the aircraft, 
+															instead of on the weapon you are firing.
+															
+FCR				Fire Control Radar							This MFD page is used to control your air-to-air and air-to-ground radars. 
+															Understanding how to use this page is crucial to your survival as a fighter pilot.
